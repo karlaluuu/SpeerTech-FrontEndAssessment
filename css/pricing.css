@@ -1,3 +1,5 @@
+  /*code by Karla Amo*/
+
 body { 
     margin: 0;
     height: 100%;
@@ -220,3 +222,8 @@ body {
     text-align: center;
     color: white;
   }
+  .ion-icon{
+    margin-right: 5px;
+  }
+
+    /*code by Karla Amo*/

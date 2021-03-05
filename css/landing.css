@@ -1,3 +1,5 @@
+  /*code by Karla Amo*/
+
 body { 
   margin: 0;
   height: 100%;
@@ -17,7 +19,7 @@ body {
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url('fearless.jpg');
+  background-image: url('../img/fearless.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -25,14 +27,14 @@ body {
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url('red.jpg');
+  background-image: url('../img/red.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url('taylor.jpg');
+  background-image: url('../img/taylor.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -278,9 +280,11 @@ h1, h2, h3 {
 #red h1{
   color: white;
   font-size: 42px;
+  font-weight: bold;
 }
 #red h2{
   color: black;
+  letter-spacing: 3px;
 }
 .red-content {
   display: grid;
@@ -389,11 +393,6 @@ h1, h2, h3 {
   margin-bottom: 50px;
   font-weight: bold;
   letter-spacing: 7px;
-}
-.perks-content {
-  display: grid;
-  grid-template-columns: auto auto;
-  text-align: left;
 }
 @media screen and (max-width: 580px) {
   .perks-content {
@@ -507,3 +506,8 @@ h1, h2, h3 {
   text-align: center;
   color: white;
 }
+
+.ion-icon{
+  margin-right: 5px;
+}
+  /*code by Karla Amo*/
