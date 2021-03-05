@@ -1,0 +1,214 @@
+body { 
+    margin: 0;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: 'Calibri', sans-serif;
+    perspective: 1px;
+    transform-style: preserve-3d;
+  }
+  
+  /*container*/
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .container {
+          padding: 0 2rem;
+    }
+  }
+  h1, h2, h3 {
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+
+/*pricing section*/
+#pricing{
+    background: #191919;
+    padding: 8rem 0;
+  }
+  .firstprice{
+    color:#D34848;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  .priceline1{
+    width: 30%;
+    height: 3px;
+    background-color: #D34848;
+    margin-bottom: 20px;
+  }
+  .secondprice{
+    color: #1FE1E9;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  .priceline2{
+    width: 30%;
+    height: 3px;
+    background-color: #1FE1E9;
+    margin-bottom: 20px;
+  }
+  .thirdprice{
+    color: #FFB33F;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  .priceline3{
+    width: 30%;
+    height: 3px;
+    background-color: #FFB33F;
+    margin-bottom: 20px;
+  }
+  #pricing p, h5{
+    color: white;
+    font-size: 25px;
+    font-weight:small;
+    letter-spacing: 2px;
+  }
+  
+  #pricing h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: bold;
+    letter-spacing: 7px;
+  }
+  @media screen and (max-width: 580px) {
+    .perks-content {
+          display: grid;
+          grid-gap: 20px;
+          grid-template-columns: auto auto auto;
+          text-align: left;
+    }
+  }  
+  
+/*buttons*/
+.monthly-button{
+    background-color: #D34848;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 40px;
+  }
+  .monthly-button:hover{
+    background-color: white ;
+    border: 1px solid #D34848;
+    color: #D34848;
+  
+  }
+
+  .advanced-button{
+    background-color: #1FE1E9;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 40px;
+  }
+  .advanced-button:hover{
+    background-color: white ;
+    border: 1px solid #1FE1E9;
+    color: #1FE1E9;
+  
+  }
+
+  .pro-button{
+    background-color: #FFB33F;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 40px;
+  }
+  .pro-button:hover{
+    background-color: white ;
+    border: 1px solid #FFB33F;
+    color: #FFB33F;
+  
+  }
+
+  /*perks section*/
+#perks{
+    background: #D34848;
+    padding: 8rem 0;
+  }
+  .firstperk, .secondperk, .thirdperk{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  .perkline1, .perkline2, .perkline3{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  #perks p{
+    color: white;
+    font-size: 25px;
+    font-weight:small;
+    letter-spacing: 2px;
+  }
+  
+  #perks h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: bold;
+    letter-spacing: 7px;
+  }
+
+  @media screen and (max-width: 580px) {
+    .perks-content {
+          display: grid;
+          grid-gap: 20px;
+          grid-template-columns: auto auto auto;
+          text-align: left;
+    }
+  }  
+  /*footer section*/
+#footer{
+    background: #5E33D1;
+    padding: 4rem 0;
+    letter-spacing: 3px;
+  
+  }
+  #footer h2{
+    color: white;
+    font-size: 42px;
+    
+  }
+  .footer-mail {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 1em;
+  }
+  #footer a{
+    color: white;
+  }
+  .product-name{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+  }
+  .copyright{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
