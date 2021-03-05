@@ -74,6 +74,7 @@ body {
     font-size: 25px;
     font-weight:small;
     letter-spacing: 2px;
+    padding-top: 10px;
   }
 
   #pricing p{
@@ -111,10 +112,10 @@ body {
     border: none;
     margin-top: 40px;
   }
-  .monthly-button:hover{
-    background-color: white ;
-    border: 1px solid #D34848;
-    color: #D34848;
+
+  .monthly-button:hover.monthly{
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
   
   }
 
@@ -127,10 +128,9 @@ body {
     border: none;
     margin-top: 40px;
   }
-  .advanced-button:hover{
-    background-color: white ;
-    border: 1px solid #1FE1E9;
-    color: #1FE1E9;
+  .advanced-button:hover.advanced{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
   
   }
 
@@ -143,11 +143,19 @@ body {
     border: none;
     margin-top: 40px;
   }
-  .pro-button:hover{
-    background-color: white ;
-    border: 1px solid #FFB33F;
-    color: #FFB33F;
+  .pro-button:hover.pro{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
   
+  }
+
+  .monthly-button:hover, .advanced-button:hover, .pro-button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
   }
 
   /*perks section*/
