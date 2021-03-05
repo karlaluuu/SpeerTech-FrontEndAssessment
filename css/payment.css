@@ -33,6 +33,7 @@
     margin-bottom: 50px;
     font-weight: bold;
     letter-spacing: 7px;
+    text-transform: uppercase;
   }
   #payment p{
     color: #191919;
@@ -72,6 +73,10 @@
     margin-top: 25px;
     text-align: left;
   }
+
+  .payment-credit label{
+    font-size: 15px;
+}
   .payment-credit form, .payment-billing form{
       margin-top: 20px;
   }
@@ -95,7 +100,7 @@
     text-align: left;
   }
   .payment-billing label{
-      margin-bottom: 0;
+      font-size: 15px;
   }
 
   /*download button*/
