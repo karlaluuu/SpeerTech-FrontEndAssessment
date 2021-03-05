@@ -67,11 +67,19 @@ body {
     background-color: #FFB33F;
     margin-bottom: 20px;
   }
-  #pricing p, h5{
+  #pricing h5{
     color: white;
     font-size: 25px;
     font-weight:small;
     letter-spacing: 2px;
+  }
+
+  #pricing p{
+    color: white;
+    font-size: 25px;
+    font-weight:small;
+    letter-spacing: 2px;
+    margin: 5px;
   }
   
   #pricing h1{

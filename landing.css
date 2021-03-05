@@ -9,10 +9,7 @@ body {
 
 
 /*carousel*/
-.myCarousel{
-  position: absolute;
-  top:0;
-}
+
 .carousel-item,
 .carousel-item.active {
   height: 100vh;
