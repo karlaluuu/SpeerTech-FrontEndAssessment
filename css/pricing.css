@@ -230,7 +230,8 @@ body {
     text-align: center;
     color: white;
   }
-  .ion-icon{
+
+  ion-icon{
     margin-right: 5px;
   }
 

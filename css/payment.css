@@ -80,20 +80,27 @@
   .payment-credit form, .payment-billing form{
       margin-top: 20px;
   }
+
+  .payment-credit input[type=text]:focus{
+    border-color: #5E33D1;
+    outline: none !important;
+    box-shadow: 0 0 10px #5E33D1;
+  }
   /*billing*/
-  #payment-content .input[type=text]
+  #payment-billing input[type=text]
   {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #2F1FE9;
+    border-bottom: 1px solid #2F1FE9;
     border-radius: 4px;
     box-sizing: border-box;
   }
-  #payment-content .input[type=text]:hover{
-    border-bottom-color: #5E33D1;
-
+  .payment-billing input[type=text]:focus{
+    border-color: #5E33D1;
+    outline: none !important;
+    box-shadow: 0 0 10px #5E33D1;
   }
   .payment-billing {
     margin-top: 25px;
@@ -202,7 +209,7 @@
     text-align: center;
     color: white;
   }
-  .ion-icon{
+  ion-icon{
     margin-right: 5px;
   }
 
