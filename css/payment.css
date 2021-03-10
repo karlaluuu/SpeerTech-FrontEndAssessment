@@ -21,7 +21,29 @@
     }
   }
 
+/*navigation*/
+.navbar{
+  position:fixed;
+  width:100%;
+  background-color:white;
+  z-index:10;
+  border-radius:0;
+  border-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.navbar-brand{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
 
+/*payment*/
   #payment{
     background: #ffff;
     padding: 8rem 0;
